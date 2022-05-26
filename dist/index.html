@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="js/script.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">  
+  <title>Aeon Santo Domingo | Home</title>
+</head>
+<body>
+
+  <!-- header + nav -->
+
+  <header id="header">
+    <div class="container">
+      <nav id="main-nav">
+        <a href="index.html">ASD</a>
+        
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-ul" id="nav-ul">
+          <li><a href="index.html" class="current">| Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- hero -->
+
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hello, I'm <span>Aeon</span></h1>
+        <p>Front End Web Developer <br>
+        based out of <span>Seattle, WA</span></p>
+
+        <div class="hero-links">
+          <a href="projects.html" class="view-projects">View Projects</a>
+          <a href="files/aeon-resume.pdf" download class="download-resume"><i class="fas fa-cloud-arrow-down"></i> Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sticky links -->
+  
+  <div id="fixed-links">
+    <div class="line">
+      <p>Links</p>
+    </div>
+    <a href="https://www.linkedin.com/in/aeon-santo-domingo-159457232/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/aeonsantodomingo" target="_blank"><i class="fab fa-github-square"></i></a>
+  </div>
+
+  <!-- section a: about -->
+
+  <section id="about">
+    <div class="container">
+      <div class="about-pic">
+        <img src="images/about-1.png" alt="">
+      </div>
+      <div class="about-text">
+        <h1>New but <br>
+        Passionate</h1>
+        <p>I started learning <br>
+          HTML & CSS in March 2022. <br>
+          Now I dedicate my time to <br>
+          designing + developing mock up <br>
+          websites and learning JavaScript
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- section b: latest project -->
+
+  <section id="latest-project">
+    <div class="banner">
+      <p>Latest Project</p>
+    </div>
+    <div class="container">
+      <div class="project-info">
+        <div class="project-title">
+          <h1>Calzone Zone</h1>
+        </div>
+        <div class="project-languages">
+          <div><p>HTML</p></div>
+          <div><p>CSS</p></div>
+          <div><p>JavaScript</p></div>
+        </div>
+        <div class="project-info-2">
+          <p>This is a fully functional website <br>
+            of a fictional restaurant I named <br>
+            Calzone Zone
+          </p>
+        </div>
+        <div class="project-date">
+          <p>03/22/2022</p>
+        </div>
+        <div class="project-links">
+          <div><a href="https://calzone-zone.netlify.app/" target="_blank">Visit</a></div>
+          <div><a href="https://github.com/aeonsantodomingo/calzone_zone" target="_blank">View Code</a></div>
+        </div>
+
+      </div>
+      <div class="project-img">
+        <img src="images/deviceframes (3).png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- section c: contact -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="contact-title">
+        <h1>Lets Chat</h1>
+        <p>Alternatively, you can reach out to me via <a href="https://www.linkedin.com/in/aeon-santo-domingo-159457232/" target="_blank">Linkedin</a></p>
+      </div>
+
+      <div class="form">
+        <form action="https://formsubmit.co/santodomingo.aeon@gmail.com" method="POST">
+          <input type="text" name="name" required placeholder="name">
+          <input type="email" name="email" required placeholder="email">
+          <input type="text" name="message" required placeholder="message">
+          <button type="submit"><i class="fas fa-paper-plane"></i>Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/aeon-santo-domingo-159457232/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/aeonsantodomingo" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="footer-credits">
+        <p>Website Designed & Developed by Aeon Santo Domingo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,107 @@
+@media (max-width: 800px) {
+  #header .container #main-nav .hamburger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer; }
+    #header .container #main-nav .hamburger:focus {
+      outline: none; }
+  #header .container #main-nav .nav-ul {
+    display: none;
+    width: 100%;
+    margin-top: 2rem; }
+    #header .container #main-nav .nav-ul li {
+      margin: 2rem; }
+  #header .container #main-nav .nav-ul.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2675a6;
+    border-radius: 20px; }
+  #hero .container h1 {
+    font-size: 3rem;
+    font-weight: 400; }
+  #hero .container p {
+    font-size: 1.7rem; }
+  #hero .container .hero-links {
+    flex-direction: column; }
+    #hero .container .hero-links a {
+      margin-top: 1.3rem; }
+  #fixed-links {
+    display: none; }
+  #about .container {
+    flex-direction: column;
+    justify-content: center; }
+    #about .container .about-pic img {
+      padding: 1rem;
+      height: 350px;
+      width: 350px; }
+    #about .container .about-text {
+      padding: 0 4rem 4rem 4rem; }
+      #about .container .about-text h1 {
+        font-size: 3.3rem;
+        line-height: 4rem; }
+      #about .container .about-text p {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-top: 1rem; }
+  #latest-project .container {
+    flex-direction: column-reverse;
+    justify-content: center; }
+    #latest-project .container .project-img img {
+      position: relative;
+      margin-top: 4rem;
+      margin-bottom: 0; }
+    #latest-project .container .project-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 5rem 0 5rem; }
+      #latest-project .container .project-info .project-title h1 {
+        font-size: 3rem;
+        font-weight: 600; }
+      #latest-project .container .project-info .project-languages div {
+        margin: 0.2rem;
+        width: 100px; }
+      #latest-project .container .project-info .project-info-2 p {
+        font-size: 2rem;
+        font-weight: 200; }
+      #latest-project .container .project-info .project-date {
+        display: none; }
+      #latest-project .container .project-info .project-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem; }
+        #latest-project .container .project-info .project-links div a {
+          width: 250px;
+          margin: 0.5rem auto; }
+  #contact .container .contact-title h1 {
+    font-size: 3rem; }
+  #contact .container .contact-title p {
+    font-size: 1.4rem;
+    text-align: center; }
+  #contact .container .form form input {
+    width: 300px;
+    font-size: 16px;
+    border-bottom: 3px solid #fff;
+    border-radius: 0; }
+  #contact .container .form form button {
+    padding: 1rem;
+    font-size: 16px; }
+  #footer .container .footer-credits {
+    text-align: center;
+    padding: 1rem; } }
+
+@media (min-width: 1920px) {
+  #fixed-links {
+    bottom: 500px; }
+  #latest-project .container .project-img img {
+    width: 450px;
+    background-size: cover; } }
