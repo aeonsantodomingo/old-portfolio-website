@@ -303,6 +303,66 @@ a {
     background-size: contain;
     padding: 2rem 0; }
 
+#calzone-zone .banner {
+  display: none; }
+  #calzone-zone .banner p {
+    display: block;
+    color: #fff;
+    background-color: #173673;
+    text-align: center;
+    font-weight: 500;
+    width: 200px;
+    padding: 1rem 0; }
+
+#calzone-zone .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #35435f; }
+  #calzone-zone .container .project-info .project-title h1 {
+    color: #a3bfd9;
+    font-weight: 600;
+    font-size: 4rem; }
+  #calzone-zone .container .project-info .project-languages {
+    display: flex; }
+    #calzone-zone .container .project-info .project-languages div {
+      color: #fff;
+      background-color: #5e708a;
+      margin-right: 1rem;
+      padding: 0.3rem;
+      width: 150px;
+      border-radius: 50px; }
+      #calzone-zone .container .project-info .project-languages div p {
+        text-align: center; }
+  #calzone-zone .container .project-info .project-info-2 {
+    position: relative;
+    margin-top: 1rem; }
+    #calzone-zone .container .project-info .project-info-2 p {
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: #fff; }
+  #calzone-zone .container .project-info .project-date p {
+    font-weight: 200;
+    color: #fff; }
+  #calzone-zone .container .project-info .project-links {
+    display: flex; }
+    #calzone-zone .container .project-info .project-links div a {
+      display: block;
+      background-color: #2675a6;
+      width: 250px;
+      border-radius: 50px;
+      padding: 1rem 0;
+      margin-right: 2rem;
+      margin-top: 1rem;
+      text-align: center; }
+      #calzone-zone .container .project-info .project-links div a:hover {
+        background-color: #a3bfd9;
+        color: #283040; }
+  #calzone-zone .container .project-img img {
+    width: 400px;
+    background-size: contain;
+    padding: 2rem 0; }
+
 #contact {
   background-color: rgba(66, 76, 96, 0.8);
   padding: 2rem; }

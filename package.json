@@ -8,6 +8,17 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeonsantodomingo/portfolio-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aeonsantodomingo/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/aeonsantodomingo/portfolio-website#readme",
   "devDependencies": {
     "node-sass": "^7.0.1"
   }
