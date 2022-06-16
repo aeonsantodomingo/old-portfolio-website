@@ -14,13 +14,15 @@
     margin-top: 2rem; }
     #header .container #main-nav .nav-ul li {
       margin: 2rem; }
+      #header .container #main-nav .nav-ul li a {
+        font-weight: 500; }
   #header .container #main-nav .nav-ul.show {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #2675a6;
-    border-radius: 20px; }
+    background: #2675a676;
+    transition: 1s; }
   #hero .container h1 {
     font-size: 3rem;
     font-weight: 400; }
@@ -82,6 +84,40 @@
         #latest-project .container .project-info .project-links div a {
           width: 250px;
           margin: 0.5rem auto; }
+  #calzone-zone .container {
+    flex-direction: column-reverse;
+    justify-content: center; }
+    #calzone-zone .container .project-img img {
+      position: relative;
+      margin-top: 1rem;
+      margin-bottom: 0; }
+    #calzone-zone .container .project-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 5rem 0 5rem; }
+      #calzone-zone .container .project-info .project-title h1 {
+        font-size: 3rem;
+        font-weight: 600; }
+      #calzone-zone .container .project-info .project-languages div {
+        margin: 0.2rem;
+        width: 100px; }
+      #calzone-zone .container .project-info .project-info-2 p {
+        font-size: 2rem;
+        font-weight: 200; }
+      #calzone-zone .container .project-info .project-date {
+        display: none; }
+      #calzone-zone .container .project-info .project-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem; }
+        #calzone-zone .container .project-info .project-links div a {
+          width: 250px;
+          margin: 0.5rem auto; }
   #contact .container .contact-title h1 {
     font-size: 3rem; }
   #contact .container .contact-title p {
@@ -103,6 +139,12 @@
   #fixed-links {
     bottom: 500px; }
   #latest-project .container .project-img img {
+    width: 450px;
+    background-size: cover; }
+  #burgerBros .container .project-img img {
+    width: 450px;
+    background-size: cover; }
+  #calzone-zone .container .project-img img {
     width: 450px;
     background-size: cover; } }
 
@@ -258,7 +300,8 @@ a {
 #latest-project .container {
   display: flex;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  background-color: #35435f; }
   #latest-project .container .project-info .project-title h1 {
     color: #a3bfd9;
     font-weight: 600;
@@ -299,6 +342,66 @@ a {
         background-color: #a3bfd9;
         color: #283040; }
   #latest-project .container .project-img img {
+    width: 400px;
+    background-size: contain;
+    padding: 2rem 0; }
+
+#burgerBros .banner {
+  display: none; }
+  #burgerBros .banner p {
+    display: block;
+    color: #fff;
+    background-color: #173673;
+    text-align: center;
+    font-weight: 500;
+    width: 200px;
+    padding: 1rem 0; }
+
+#burgerBros .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #283040; }
+  #burgerBros .container .project-info .project-title h1 {
+    color: #a3bfd9;
+    font-weight: 600;
+    font-size: 4rem; }
+  #burgerBros .container .project-info .project-languages {
+    display: flex; }
+    #burgerBros .container .project-info .project-languages div {
+      color: #fff;
+      background-color: #5e708a;
+      margin-right: 1rem;
+      padding: 0.3rem;
+      width: 150px;
+      border-radius: 50px; }
+      #burgerBros .container .project-info .project-languages div p {
+        text-align: center; }
+  #burgerBros .container .project-info .project-info-2 {
+    position: relative;
+    margin-top: 1rem; }
+    #burgerBros .container .project-info .project-info-2 p {
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: #fff; }
+  #burgerBros .container .project-info .project-date p {
+    font-weight: 200;
+    color: #fff; }
+  #burgerBros .container .project-info .project-links {
+    display: flex; }
+    #burgerBros .container .project-info .project-links div a {
+      display: block;
+      background-color: #2675a6;
+      width: 250px;
+      border-radius: 50px;
+      padding: 1rem 0;
+      margin-right: 2rem;
+      margin-top: 1rem;
+      text-align: center; }
+      #burgerBros .container .project-info .project-links div a:hover {
+        background-color: #a3bfd9;
+        color: #283040; }
+  #burgerBros .container .project-img img {
     width: 400px;
     background-size: contain;
     padding: 2rem 0; }
